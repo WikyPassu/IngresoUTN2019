@@ -6,12 +6,12 @@ function FahrenheitCentigrados ()
 {
     var f = parseFloat(document.getElementById("Temperatura").value);
     var c = (f - 32) * 5 / 9;
-    alert(f.toFixed(2)+" grados Fahrenheit son "+c.toFixed(2)+" grados Celcius");
+    alert(f.toFixed(2)+" grados Fahrenheit son "+c.toFixed(2)+" centigrados");
 }
 
 function CentigradosFahrenheit () 
 {
 	var c = parseFloat(document.getElementById("Temperatura").value);
     var f = (c * 9 / 5) + 32;
-    alert(c.toFixed(2)+" grados Celcius son "+f.toFixed(2)+" grados Fahrenheit");
+    alert(c.toFixed(2)+" centigrados son "+f.toFixed(2)+" grados Fahrenheit");
 }
