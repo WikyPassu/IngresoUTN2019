@@ -60,5 +60,5 @@ function CalcularPrecio ()
         precioFinal += iibb;
         alert("Usted pagó $"+iibb+" de IIBB.");
      }
-     document.getElementById("precioDescuento").value = precioFinal.toFixed(2);
+     document.getElementById("precioDescuento").value = "$"+precioFinal.toFixed(2);
 }
