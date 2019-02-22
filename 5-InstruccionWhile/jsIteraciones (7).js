@@ -1,12 +1,9 @@
-function Mostrar()
-{
-
-	var contador=0;
-	var acumulador=0;
-	var respuesta='si';
-
-
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/contador;
-
-}//FIN DE LA FUNCIÓN
+function Mostrar() {
+	var cont = 0, suma = 0, respuesta = "si";
+	do{
+		
+	}while(respuesta == "si");
+	promedio = suma / cont;
+	document.getElementById("suma").value = suma.toFixed(2);
+	document.getElementById("promedio").value = promedio.toFixed(2);
+}
