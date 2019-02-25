@@ -7,7 +7,7 @@ function Mostrar() {
 		}
 		cont++;
 		suma += numero;
-		respuesta = prompt("¿Desea seguir ingresando números?");
+		respuesta = prompt("¿Desea seguir ingresando números?").toLowerCase();
 	}while(respuesta == "s");
 	promedio = suma / cont;
 	document.getElementById("suma").value = suma.toFixed(2);

@@ -19,7 +19,7 @@ function Mostrar() {
 		if(numero % 2 == 0){
 			cantPar++;
 		}
-		respuesta = prompt("¿Desea seguir ingresando números?");
+		respuesta = prompt("¿Desea seguir ingresando números?").toLowerCase();
 	}while(respuesta == "s");
 	promPos = sumPos / cantPos;
 	promNeg = sumNeg / cantNeg;

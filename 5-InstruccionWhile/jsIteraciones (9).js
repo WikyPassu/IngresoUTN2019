@@ -11,7 +11,7 @@ function Mostrar() {
 		else if(numero < min){
 			min = numero;
 		}
-		respuesta = prompt("¿Desea seguir ingresando números?");
+		respuesta = prompt("¿Desea seguir ingresando números?").toLowerCase();
 	}while(respuesta == "s");
 	document.getElementById("maximo").value = max;
 	document.getElementById("minimo").value = min;
