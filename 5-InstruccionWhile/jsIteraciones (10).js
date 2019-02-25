@@ -23,6 +23,12 @@ function Mostrar() {
 	}while(respuesta == "s");
 	promPos = sumPos / cantPos;
 	promNeg = sumNeg / cantNeg;
+	if(isNaN(promPos)){
+		promPos = 0;
+	}
+	if(isNaN(promNeg)){
+		promNeg = 0;
+	}
 	diferencia = cantPos - cantNeg;
 	document.write("Suma de positivos: "+sumPos+"<br>Suma de negativos: "+sumNeg+"<br>Cantidad de positivos: "+cantPos+"<br>Cantidad de negativos: "+cantNeg+"<br>Cantidad de ceros: "+cantCeros+"<br>Cantidad de numeros pares: "+cantPar+"<br>Promedio de positivos: "+promPos+"<br>Promedio de negativos: "+promNeg+"<br>Diferencia entre positivos y negativos: "+diferencia);
 }
