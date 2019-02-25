@@ -30,5 +30,5 @@ function Mostrar() {
 		promNeg = 0;
 	}
 	diferencia = cantPos - cantNeg;
-	document.write("Suma de positivos: " + sumPos + "<br>Suma de negativos: " + sumNeg + "<br>Cantidad de positivos: " + cantPos + "<br>Cantidad de negativos: " + cantNeg + "<br>Cantidad de ceros: " + cantCeros + "<br>Cantidad de numeros pares: " + cantPar + "<br>Promedio de positivos: " + promPos.toFixed(2) + "<br>Promedio de negativos: " + promNeg.toFixed(2) + "<br>Diferencia entre positivos y negativos: " + diferencia);
+	document.write("1-Suma de negativos: " + sumNeg + "<br>2-Suma de positivos: " + sumPos + "<br>3-Cantidad de positivos: " + cantPos + "<br>4-Cantidad de negativos: " + cantNeg + "<br>5-Cantidad de ceros: " + cantCeros + "<br>6-Cantidad de numeros pares: " + cantPar + "<br>7-Promedio de positivos: " + promPos.toFixed(2) + "<br>8-Promedio de negativos: " + promNeg.toFixed(2) + "<br>9-Diferencia entre positivos y negativos: " + diferencia);
 }
