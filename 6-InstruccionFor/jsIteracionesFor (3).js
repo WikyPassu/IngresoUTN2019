@@ -4,6 +4,6 @@ function Mostrar() {
         repeticiones = parseInt(prompt("Error. Ingrese el numero de veces a repetir:"));
     }
     for (var i = 1; i <= repeticiones; i++) {
-        alert(i + "- Hola UTN FRA");
+        console.log(i + "- Hola UTN FRA");
     }
 }
