@@ -4,7 +4,7 @@ function Mostrar() {
     while(isNaN(numero) || numero < 2){
         numero = parseInt(prompt("Error. Ingrese un numero limite:"));
     }
-    for (i = 1; i <= numero; i++) {
+    for (var i = 1; i <= numero; i++) {
         if (i % 2 == 0) {
             console.log(i);
             cont++;

@@ -4,7 +4,7 @@ function Mostrar() {
     while(isNaN(numero) || numero < 0){
         numero = parseInt(prompt("Error. Ingrese un numero natural:"));
     }
-    for (i = 1; i <= numero; i++) {
+    for (var i = 1; i <= numero; i++) {
         if (numero % i == 0) {
             cont++;
         }
