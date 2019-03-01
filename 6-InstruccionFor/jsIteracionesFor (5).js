@@ -1,6 +1,6 @@
 function Mostrar() {
     var numero;
-    for (i = 1; i >= 1; i++) {
+    for (; ;) { // Bucle infinito
         numero = parseInt(prompt("Ingrese un numero:"));
         while (isNaN(numero)) {
             numero = parseInt(prompt("Error. Ingrese un numero:"));
